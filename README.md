@@ -1,5 +1,7 @@
 # OpenChamber × Token 用量
 
+[GitHub 仓库](https://github.com/seanjin0513/openchamber-token-usage)
+
 在 OpenChamber 右侧栏加一个 **Token 用量** 面板：按本会话、今天、近 7 天、近 30 天和历史累计统计 token 与费用。
 
 - **本机数据**：只读 OpenCode 的本地 SQLite 数据库（默认 `~/.local/share/opencode/opencode.db`），不读取对话正文，不上传任何内容。
@@ -17,6 +19,12 @@
 1. 打开 OpenChamber 的 **设置 → 扩展 → 从文件夹安装**，选择这个目录。
 2. 安装后授予 **service（本地服务）** 权限。面板通过它以只读方式读取 OpenCode 数据库。
 3. 在右侧栏打开 **Token 用量** 面板。
+
+从 GitHub 克隆后安装：
+
+```bash
+git clone https://github.com/seanjin0513/openchamber-token-usage
+```
 
 本地开发时：
 
